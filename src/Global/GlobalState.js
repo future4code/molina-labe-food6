@@ -1,11 +1,11 @@
 import GlobalStateContext from './GlobalStateContext'
 import React from 'react'
 
-const GlobalState = () => {
+const GlobalState = (props) => {
     return(
         <div>
             <GlobalStateContext>
-
+                {props.children}
             </GlobalStateContext>
         </div>
     )
