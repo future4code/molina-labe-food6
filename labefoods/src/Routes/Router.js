@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import InitialPage from '../pages/InitialPage/InitialPage'
-import LoginPage from '../pages/LoginPage/LoginPage'
-import SignUpPage from '../pages/SignUpPage/SignUpPage'
-import FeedPage from '../pages/Feed/FeedPage'
-import ProfilePage from '../pages/ProfilePage/ProfilePage'
-import EditProfilePage from '../pages/EditProfilePage/EditProfilePage'
-import RestaurantPage from '../pages/RestaurantPage/RestaurantPage'
-import AddressPage from '../pages/AddressPage/AddressPage'
-import CartPage from '../pages/CartPage/CartPage'
+import InitialPage from '../Pages/InitialPage/InitialPage'
+import LoginPage from '../Pages/LoginPage/LoginPage'
+import SignUpPage from '../Pages/SignUpPage/SignUpPage'
+import FeedPage from '../Pages/Feed/FeedPage'
+import ProfilePage from '../Pages/ProfilePage/ProfilePage'
+import EditProfilePage from '../Pages/EditProfilePage/EditProfilePage'
+import RestaurantPage from '../Pages/RestaurantPage/RestaurantPage'
+import AddressPage from '../Pages/AddressPage/AddressPage'
+import CartPage from '../Pages/CartPage/CartPage'
 
 
 const Router = () => {
