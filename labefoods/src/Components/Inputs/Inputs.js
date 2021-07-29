@@ -1,10 +1,11 @@
 import React from 'react'
-import { InputContainer, TextField } from './style'
+import { InputContainer, TextFieldPlace } from './style'
+
 
 const Inputs = (props) => {
     return (
         <InputContainer>
-            <TextField>
+            <TextFieldPlace
                 type={props.type}
                 name={props.name}
                 value={props.value}
@@ -15,12 +16,12 @@ const Inputs = (props) => {
                 variant='outlined'
                 required={props.required}
                 inputProps={{
-                    autocomplete: 'new-password',
+                    autoComplete: 'new-password',
                     form: {
-                        autocomplete: 'off',
+                        autoComplete: 'off',
                     },
                 }}
-            </TextField>
+            />
         </InputContainer>
     )
 }

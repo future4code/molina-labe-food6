@@ -15,10 +15,10 @@ export const FormContainer = styled.form`
     height: max-content;
     width: 100%;
 `
-export const LogoLoginPage = styled.img`
+export const LogoImage = styled.img`
     width: 104px;
     height: 58px;
-    margin: 68px 0 16px;
+    margin: 88px 0 16px;        
 `
 export const Button = styled.button`
     height: 42px;
@@ -38,4 +38,48 @@ export const ButtonSignUp = styled.div`
         margin-top: 0;
         cursor: pointer;
     }
+`
+export const TitleButtonLogin = styled.text`
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    text-align: center;
+    color: black;
+`
+export const Title = styled.text`
+    width: 360px;
+    height: 42px;
+    padding: 12px 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    text-align: center;
+    color: black;
+`
+export const IconButton = styled.div`    
+    width: 24px;
+    height: 24px;
+    color: #b8b8b8;
+    position: absolute;    
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px 16px 8px;    
+`
+export const PasswordContainer = styled.div`
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;    
+    height: min-content;
+    width: 328px;
+    height: 56px;
+    margin-bottom: 16px;
 `

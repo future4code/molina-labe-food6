@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { TextField } from '@material-ui/core/TextField'
+import TextField from '@material-ui/core/TextField'
 
-export const TextField = styled(TextField)`
+export const TextFieldPlace = styled(TextField)`
     width: 100%;
 `
 export const InputContainer = styled.div`
