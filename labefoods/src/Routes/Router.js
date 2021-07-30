@@ -9,6 +9,7 @@ import EditProfilePage from '../Pages/EditProfilePage/EditProfilePage'
 import RestaurantPage from '../Pages/RestaurantPage/RestaurantPage'
 import AddressPage from '../Pages/AddressPage/AddressPage'
 import CartPage from '../Pages/CartPage/CartPage'
+import HomePage from '../Pages/Home/HomePage'
 
 
 const Router = () => {
@@ -16,6 +17,7 @@ const Router = () => {
         <BrowserRouter>
         <Switch>
             <Route exact path='/' component={InitialPage} />
+            <Route exact path='/home' component={HomePage} />
             <Route exact path='/login' component={LoginPage} />
             <Route exact path='/sign_up' component={SignUpPage} />
             <Route exact path='/feed' component={FeedPage} />
